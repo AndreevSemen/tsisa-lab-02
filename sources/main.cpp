@@ -117,5 +117,5 @@ double UnimodalFunction(double x) {
 }
 
 double MultimodalFunction(double x) {
-    return UnimodalFunction(x)*std::sin(x);
+    return UnimodalFunction(x)*std::sin(5*x);
 }
